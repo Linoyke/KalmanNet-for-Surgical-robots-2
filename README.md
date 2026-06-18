@@ -25,7 +25,3 @@ Here is the Sorce code for the article "Bias-Aware AI-aided Kalman Tracking for 
   
   Set flags, paths, etc..
 
-  
-- main file
-  
-  Set flags, paths, etc..
