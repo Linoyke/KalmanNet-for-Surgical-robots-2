@@ -23,7 +23,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from scipy.stats import zscore
 from Simulations.Extended_sysmdl import SystemModel
 import Simulations.config as config
-from Simulations.raven_ii_matlab.parameters_withbias_trainIK import m1x_0, m2x_0, m, n, f, h, fInacc, Q_structure, R_structure, f_with_action
+from Simulations.parameters_withbias_trainIK import m1x_0, m2x_0, m, n, f, h, fInacc, Q_structure, R_structure, f_with_action
 from KNet.KalmanNet_nn_withbias_IK import InverseKinematicsNN
 from Pipelines.Pipeline_EKF_withbias_IK import Pipeline_EKF
 from KNet.KalmanNet_nn_withbias_IK import KalmanNetNN
