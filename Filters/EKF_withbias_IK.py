@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
-from Simulations.raven_ii_matlab.parameters_withbias_trainIK import getJacobian
+from Simulations.parameters_withbias_trainIK import getJacobian
 from Utils import project_to_box
-from Simulations.raven_ii_matlab.parameters_withbias_trainIK import x_limits, y_limits, z_limits
+from Simulations.parameters_withbias_trainIK import x_limits, y_limits, z_limits
 
 
 class ExtendedKalmanFilterWithIK(nn.Module):
