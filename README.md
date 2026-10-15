@@ -11,7 +11,6 @@ Here is the Sorce code for the article "Bias-Aware AI-aided Kalman Tracking for 
   
 ## Parameters Settings
 
-**Planar robot case:**
 - Simulations/parameters_withbias_trainIK.py
 
   Contains model settings: m, n, f, h, Q.
