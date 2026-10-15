@@ -24,3 +24,7 @@ Here is the Sorce code for the article "Bias-Aware AI-aided Kalman Tracking for 
   
   Set flags, paths, etc..
 
+  ## Model Checkpoints
+  Knet/best-model.pt - algorithm 2 model checkpoints (KalmanNet + IK_DNN)
+  Knet/best-model-IKModel.pt - algorithm 1 model checkpoints (Kalman Filter + IK_DNN)
+
